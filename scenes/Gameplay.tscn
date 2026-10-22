@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bcek872lj3o8c"]
+
+[ext_resource type="Script" uid="uid://bsgw4jki2wnva" path="res://src/Conductor.gd" id="1_4aew2"]
+[ext_resource type="Script" uid="uid://dv1e5rw8ncoyo" path="res://src/GameplayManager.gd" id="1_75vxi"]
+
+[sub_resource type="Curve2D" id="Curve2D_uqdss"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 89, 151, 0, 0, 0, 0, 181, 47, 0, 0, 0, 0, 819, 44, 0, 0, 0, 0, 880, 148, 0, 0, 0, 0, 781, 602, 0, 0, 0, 0, 462, 714, 0, 0, 0, 0, 164, 594, 0, 0, 0, 0, 89, 149)
+}
+point_count = 8
+
+[node name="Gameplay" type="Node2D" unique_id=1772647416]
+script = ExtResource("1_75vxi")
+
+[node name="Conductor" type="AudioStreamPlayer" parent="." unique_id=1547000685]
+script = ExtResource("1_4aew2")
+
+[node name="TrackPath" type="Path2D" parent="." unique_id=347390734]
+curve = SubResource("Curve2D_uqdss")
+
+[node name="NoteSpawner" type="Node2D" parent="." unique_id=1908284140]

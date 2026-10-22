@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ModuleData" format=3 uid="uid://cikxko5p1vgfo"]
+
+[ext_resource type="Script" uid="uid://cp2lqdq2m4tuv" path="res://src/data/ModuleData.gd" id="1_rue6m"]
+
+[resource]
+script = ExtResource("1_rue6m")
+module_name = "Gakupo (Clásico)"
+character = "Kamui Gakupo"
+character_color = Color(0.33333334, 0.13333334, 0.53333336, 1)
+metadata/_custom_type_script = "uid://cp2lqdq2m4tuv"

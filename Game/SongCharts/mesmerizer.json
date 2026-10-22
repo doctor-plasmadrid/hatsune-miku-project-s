@@ -1,0 +1,14 @@
+[
+	{ "time": 1.00, "type": "up" },
+	{ "time": 1.55, "type": "left" },
+	{ "time": 2.10, "type": "down" },
+	{ "time": 2.65, "type": "right" },
+	{ "time": 3.20, "type": "up" },
+	{ "time": 3.55, "type": "down" },
+	{ "time": 3.90, "type": "left" },
+	{ "time": 4.25, "type": "right" },
+	{ "time": 4.80, "type": "up" },
+	{ "time": 5.35, "type": "left" },
+	{ "time": 5.90, "type": "down" },
+	{ "time": 6.45, "type": "right" }
+]

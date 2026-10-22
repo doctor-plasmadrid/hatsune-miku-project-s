@@ -1,0 +1,114 @@
+[gd_scene format=3 uid="uid://dxuam5ftqbtin"]
+
+[ext_resource type="Script" uid="uid://stv5tjv35ge" path="res://src/InterfaceManager.gd" id="1_xdvgc"]
+[ext_resource type="Script" uid="uid://k4eqk4h07uq3" path="res://src/data/SongData.gd" id="2_11y2r"]
+[ext_resource type="Resource" uid="uid://bh327664tgig3" path="res://Game/SongResources/Mesmerizer.tres" id="3_o0tnf"]
+[ext_resource type="Resource" uid="uid://c3ngs1e77xbfa" path="res://Game/SongResources/Unknown Mother Goose.tres" id="4_1abgu"]
+[ext_resource type="Resource" uid="uid://dmejemj7pksvx" path="res://Game/SongResources/Mischievous Function.tres" id="5_yt8fu"]
+[ext_resource type="Resource" uid="uid://b1mq5cc1mkoky" path="res://Game/SongResources/Tetoris.tres" id="6_4umqm"]
+[ext_resource type="Resource" uid="uid://b1fyx0tkw4hp2" path="res://Game/SongResources/The Lunacy of Duke Venomania.tres" id="7_pp5m5"]
+[ext_resource type="Resource" uid="uid://dwhod34mwp2c4" path="res://Game/SongResources/Heat Abnormal.tres" id="8_el213"]
+[ext_resource type="Resource" uid="uid://cya1jhp0n34or" path="res://Game/SongResources/Finder (DSLR remix).tres" id="9_el213"]
+[ext_resource type="Resource" uid="uid://ctyxttv883aij" path="res://Game/SongResources/Sweet Magic.tres" id="10_thu7x"]
+[ext_resource type="Resource" uid="uid://dhuq040ulkdyx" path="res://Game/SongResources/Deep Sea Girl.tres" id="11_2af52"]
+[ext_resource type="Resource" uid="uid://4xx1edfc4rxs" path="res://Game/SongResources/Animal Fortune-telling.tres" id="12_7ycwl"]
+[ext_resource type="Resource" uid="uid://bbdftohabv836" path="res://Game/SongResources/Terekakushi Shishunki.tres" id="13_rtd1e"]
+[ext_resource type="Resource" uid="uid://bbh424clkvx6d" path="res://Game/SongResources/The World is Mine.tres" id="14_6c8sk"]
+[ext_resource type="Resource" uid="uid://jae0o50rly1" path="res://Game/SongResources/Amatsu Kitsune.tres" id="15_5p0sf"]
+[ext_resource type="Resource" uid="uid://b6md75uuceipk" path="res://Game/SongResources/Ageage Again.tres" id="16_7t7qg"]
+[ext_resource type="Resource" uid="uid://dy1ukfusro1p" path="res://Game/SongResources/Clover♣Club.tres" id="17_i7htd"]
+[ext_resource type="Resource" uid="uid://bn150ltot2lcf" path="res://Game/SongResources/Yumeyume.tres" id="18_dek3k"]
+[ext_resource type="Resource" uid="uid://u2n20xlenqnu" path="res://Game/SongResources/Doremifa Rondo.tres" id="19_8fhjo"]
+[ext_resource type="Resource" uid="uid://xb7lu28lent2" path="res://Game/SongResources/reverse rainbow.tres" id="20_760fv"]
+[ext_resource type="Resource" uid="uid://vsk7burny5f0" path="res://Game/SongResources/KONEKO NO PAYAPAYA.tres" id="21_rehui"]
+
+[node name="Menu" type="Control" unique_id=1505756263]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xdvgc")
+available_songs = Array[ExtResource("2_11y2r")]([ExtResource("3_o0tnf"), ExtResource("4_1abgu"), ExtResource("5_yt8fu"), ExtResource("6_4umqm"), ExtResource("7_pp5m5"), ExtResource("8_el213"), ExtResource("9_el213"), ExtResource("10_thu7x"), ExtResource("11_2af52"), ExtResource("12_7ycwl"), ExtResource("13_rtd1e"), ExtResource("14_6c8sk"), ExtResource("15_5p0sf"), ExtResource("16_7t7qg"), ExtResource("17_i7htd"), ExtResource("18_dek3k"), ExtResource("19_8fhjo"), ExtResource("20_760fv"), ExtResource("21_rehui")])
+metadata/_edit_lock_ = true
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=2096959022]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="MainSplit" type="HBoxContainer" parent="MarginContainer" unique_id=2052312203]
+layout_mode = 2
+
+[node name="LeftPanel" type="VBoxContainer" parent="MarginContainer/MainSplit" unique_id=1345784240]
+layout_mode = 2
+
+[node name="HintLabel" type="Label" parent="MarginContainer/MainSplit/LeftPanel" unique_id=1328651160]
+layout_mode = 2
+text = "Q: Character modules"
+
+[node name="CoverRect" type="TextureRect" parent="MarginContainer/MainSplit/LeftPanel" unique_id=1309041108]
+custom_minimum_size = Vector2(250, 250)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LblTitle" type="Label" parent="MarginContainer/MainSplit/LeftPanel" unique_id=1633116747]
+layout_mode = 2
+text = "Name: "
+
+[node name="LblBPM" type="Label" parent="MarginContainer/MainSplit/LeftPanel" unique_id=11038814]
+layout_mode = 2
+text = "BPM: "
+
+[node name="LblArtist" type="Label" parent="MarginContainer/MainSplit/LeftPanel" unique_id=1994321647]
+layout_mode = 2
+text = "Artist: "
+
+[node name="SingersHeader" type="Label" parent="MarginContainer/MainSplit/LeftPanel" unique_id=705246104]
+layout_mode = 2
+text = "Virtual Singers:"
+
+[node name="SingersList" type="VBoxContainer" parent="MarginContainer/MainSplit/LeftPanel" unique_id=1609869584]
+layout_mode = 2
+
+[node name="RightPanel" type="ScrollContainer" parent="MarginContainer/MainSplit" unique_id=1769863250]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="SongList" type="VBoxContainer" parent="MarginContainer/MainSplit/RightPanel" unique_id=1986035246]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ModulePopup" type="Panel" parent="." unique_id=2015279030]
+visible = false
+custom_minimum_size = Vector2(500, 350)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TabContainer" type="TabContainer" parent="ModulePopup" unique_id=1989437805]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

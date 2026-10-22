@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bcert2mp4k7ha"]
+
+[ext_resource type="Script" uid="uid://jrgir5vksi8l" path="res://src/Note.gd" id="1_ku001"]
+[ext_resource type="Texture2D" uid="uid://bcs5qta010sx2" path="res://icon.svg" id="2_tqwf5"]
+
+[node name="RhythmNote" type="Node2D" unique_id=426668435]
+script = ExtResource("1_ku001")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2076359114]
+texture = ExtResource("2_tqwf5")

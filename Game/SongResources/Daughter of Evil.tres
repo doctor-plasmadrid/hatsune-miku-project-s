@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="SongData" format=3 uid="uid://dgt2cjh1mwccp"]
+
+[ext_resource type="AudioStream" uid="uid://de038njxkorik" path="res://Game/Songs/mesmerizer.mp3" id="1_po0l6"]
+[ext_resource type="JSON" path="res://Game/SongCharts/mesmerizer.json" id="2_pm3vo"]
+[ext_resource type="Script" uid="uid://cp2lqdq2m4tuv" path="res://src/data/ModuleData.gd" id="3_pud75"]
+[ext_resource type="Texture2D" uid="uid://b860p2xhxtgvu" path="res://Game/SongCovers/evilioius.jpg" id="3_x2urg"]
+[ext_resource type="Script" uid="uid://k4eqk4h07uq3" path="res://src/data/SongData.gd" id="4_b31g7"]
+[ext_resource type="Resource" uid="uid://dtkmjpfbqc37" path="res://Game/ModuleResources/Rin_Base.tres" id="5_35nqp"]
+
+[resource]
+script = ExtResource("4_b31g7")
+song_title = "Daughter of Evil"
+artist = "mothy"
+cover_image = ExtResource("3_x2urg")
+default_modules = Array[ExtResource("3_pud75")]([ExtResource("5_35nqp")])
+audio_stream = ExtResource("1_po0l6")
+chart_file = ExtResource("2_pm3vo")
+metadata/_custom_type_script = "uid://k4eqk4h07uq3"

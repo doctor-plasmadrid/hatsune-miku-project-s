@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ModuleData" format=3 uid="uid://dtkp5puxtn3e5"]
+
+[ext_resource type="Script" uid="uid://cp2lqdq2m4tuv" path="res://src/data/ModuleData.gd" id="1_wvl6k"]
+
+[resource]
+script = ExtResource("1_wvl6k")
+module_name = "KAITO (Clásico)"
+character = "KAITO"
+character_color = Color(0.2, 0.6, 1, 1)
+metadata/_custom_type_script = "uid://cp2lqdq2m4tuv"

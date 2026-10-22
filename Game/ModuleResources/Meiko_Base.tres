@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ModuleData" format=3 uid="uid://bloexgbfhigd8"]
+
+[ext_resource type="Script" uid="uid://cp2lqdq2m4tuv" path="res://src/data/ModuleData.gd" id="1_u21yx"]
+
+[resource]
+script = ExtResource("1_u21yx")
+module_name = "MEIKO (Clásico)"
+character = "MEIKO"
+character_color = Color(0.64705884, 0.16470589, 0.16470589, 1)
+metadata/_custom_type_script = "uid://cp2lqdq2m4tuv"

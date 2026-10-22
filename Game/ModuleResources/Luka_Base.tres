@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ModuleData" format=3 uid="uid://dc26op2tsooh5"]
+
+[ext_resource type="Script" uid="uid://cp2lqdq2m4tuv" path="res://src/data/ModuleData.gd" id="1_kxq7b"]
+
+[resource]
+script = ExtResource("1_kxq7b")
+module_name = "Luka (Clásico)"
+character = "Megurine Luka"
+character_color = Color(1, 0.7176471, 0.77254903, 1)
+metadata/_custom_type_script = "uid://cp2lqdq2m4tuv"

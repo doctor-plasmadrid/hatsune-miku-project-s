@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ModuleData" format=3 uid="uid://cmhs5t872caat"]
+
+[ext_resource type="Script" uid="uid://cp2lqdq2m4tuv" path="res://src/data/ModuleData.gd" id="1_i1bp1"]
+
+[resource]
+script = ExtResource("1_i1bp1")
+module_name = "Len (Clásico)"
+character = "Kagamine Len"
+character_color = Color(1, 0.93333334, 0, 1)
+metadata/_custom_type_script = "uid://cp2lqdq2m4tuv"

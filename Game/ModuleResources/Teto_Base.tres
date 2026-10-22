@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ModuleData" format=3 uid="uid://dysds7rh2laoy"]
+
+[ext_resource type="Script" uid="uid://cp2lqdq2m4tuv" path="res://src/data/ModuleData.gd" id="1_15wva"]
+
+[resource]
+script = ExtResource("1_15wva")
+module_name = "Teto (Clásico)"
+character = "Kasane Teto"
+character_color = Color(0.9019608, 0, 0.2, 1)
+metadata/_custom_type_script = "uid://cp2lqdq2m4tuv"
